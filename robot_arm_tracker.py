@@ -8,8 +8,8 @@ https://github.com/zziz/kalman-filter
 
 """
 
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np      #矩阵计算函数库
+import matplotlib.pyplot as plt     #绘图模块
 
 from numpy import cos, sin, diag, eye, ones, zeros, dot, kron, isscalar, outer, vstack, hstack
 # TODO: replace numpy Guassian with scipy
